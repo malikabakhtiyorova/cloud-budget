@@ -504,6 +504,56 @@ input::placeholder {
   background-color: #ED4C5C;
 }
 
+/* FOOTER */
+
+.main-footer {
+  padding: 85px 0;
+  background-color: #fafafa;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 85px;
+}
+
+.footer-list h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.footer-list li ul {
+   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.footer-list li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.sns {
+  display: flex;
+}
+
+.sns li {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.privacy {
+  line-height: 14px;
+  font-size: 12px;
+}
 
 
 
