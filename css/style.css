@@ -48,10 +48,11 @@ img {
   text-decoration: none;
   border: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* Main section */
-.main-wrapper {
+.main-section {
   height: auto;
   background-image: url("../img/bg.png");
   background-size: cover;
@@ -113,6 +114,10 @@ img {
   text-transform: uppercase;
 }
 
+.active-nav {
+  font-weight: bold;
+}
+
 .header-left {
   display: flex;
   align-items: center;
@@ -164,7 +169,121 @@ img {
   border: 1px solid transparent;
   background-color: #fff;
   color: red;
-  padding: 16px 52px;
+  font-size: 14px;
+  padding: 16px 50px;
   margin-top: 40px;
 }
+
+/* SOFTWARE SECTION */
+
+.software-section {
+  padding: 94px 0;
+  flex-direction: row;
+}
+.software-section--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.software-section--left {
+  width: 445px;
+}
+
+.section-heading {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 600;
+}
+
+.software-section--left p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 24px;
+  text-align: justify;
+}
+
+.learn-more {
+  color: #ED4C5C;
+  display: block;
+  text-decoration: none;
+}
+
+.software-section--right {
+  position: relative;
+}
+
+.software-section--right img {
+  margin-right: 20px;
+}
+
+.play-btn {
+  position: absolute;
+  top:calc(50% - 40px);
+  left: -7%;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ED4C5C;
+  padding: 24px 21px 24px 27px;
+  cursor: pointer;
+}
+
+/* FEATURES */
+
+.features-section {
+  background-color: #fafafa;
+  padding: 63px 0 125px 0;
+  text-align: center;
+}
+
+.features-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 230px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.features-list li {
+  position: relative;
+  z-index: 25;
+}
+
+.feature {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  width: 293px;
+  padding: 30px 35px;
+}
+
+.features-list li::before {
+  content: '';
+  display: block;
+  width: 350px;
+  height: 250px;
+  background-image: url("../img/bg-money.png");
+  position: absolute;
+  z-index: -1;
+  left: -10%;
+  top: -85%;
+}
+
+.feature h3 {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.feature p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* TECHNOLOGY SECTION */
+
+
 
