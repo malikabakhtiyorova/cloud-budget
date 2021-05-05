@@ -438,6 +438,72 @@ img {
   background-image: url('../img/bg-community.png');
 }
 
+/* CONTACT */
+
+.contact-section {
+  padding: 117px 0 78px 0;
+}
+
+.contact-section h2 {
+  margin-top: 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact--left {
+  width: 434px
+}
+
+.contact--left p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.contact--right {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact--right input, select {
+  padding: 20px 30px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+}
+
+.contact--right .names {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.contact--right select {
+  margin: 25px 0;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.names input:first-child {
+  margin-right: 30px;
+}
+
+input::placeholder {
+ color: rgba(19, 39, 67, 0.5);
+}
+
+.btn-submit {
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px 34px;
+  background-color: #ED4C5C;
+}
+
 
 
 
