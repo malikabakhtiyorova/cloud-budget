@@ -11,13 +11,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="home-wrapper" id='overview'>
+    <section class="main-wrapper" id='overview'>
+        <div class="bg"></div>
         <div class="container">
-            <header>
+            <header class='main-header'>
                 <div class="logo">
-                    <img src="img/logo.png" width='172' height='29' alt="logo">
+                    <a href="#">
+                        <img class='img' src="img/logo.png" width='172' height='29' alt="logo">
+                    </a>
                 </div>
-                <nav>
+                <nav class='navbar'>
                     <ul class='nav-list'>
                         <li><a href="#overview">Overview</a></li>
                         <li><a href="#feautures">Features</a></li>
@@ -32,17 +35,17 @@
                         <p>En</p>
                         <img src="img/down.png" width='18' height='18' alt="down-arrow">
                     </div>
-                    <div class="btn btn-login"></div>
+                    <button type="button" class="btn btn-login">Login</button>
                 </div>
             </header>
             <div class="call-to-action">
                 <h1>Cloudbudget</h1>
                 <p>Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of 
-                    Up to €4.99</p>
-                <div class="btn btn-signup"></div>
+                   <span> Up to €4.99</span></p>
+                    <button type='button' class="btn btn-signup">Sign Up</button>
                 </div>
             </div>
-        </div>
+        </section>
     </body>
     </html>
     

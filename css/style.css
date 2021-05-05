@@ -28,22 +28,143 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 .container {
-  max-width: 1350px;
-  padding: 0 30px;
+  max-width: 1440px;
+  padding: 0 160px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .btn {
-  padding: 15px 48px;
+  padding: 11px 28px;
+  margin: 0;
   display: inline-block;
   vertical-align: baseline;
-  background: #333333;
-  border-radius: 3px;
-  color: #fff;
+  background-color: transparent;
+  border-radius: 6px;
   text-decoration: none;
   border: none;
+  text-transform: uppercase;
 }
+
+/* Main section */
+.main-wrapper {
+  height: auto;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 20;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.bg {
+  background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* HEADER */
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a{
+  display: block;
+}
+
+/* NAV */
+.nav-list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav-list li {
+  padding: 10px;
+  transition: all 0.4s ease;
+}
+
+.nav-list li:hover {
+  font-weight: bold;
+}
+
+.nav-list li:active {
+  font-weight: bold;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left .lang {
+  display: flex;
+  align-items:center;
+}
+
+.lang p {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.btn-login {
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 28px;
+}
+
+/* call-to-action */
+
+.call-to-action {
+  padding: 100px 0 130px 0;
+  text-align: center;
+}
+
+.call-to-action h1 {
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.call-to-action p {
+  font-size: 24px;
+  line-height: 36px;
+  width: 490px;
+  text-align: center;
+  margin: auto;
+}
+
+.call-to-action p span {
+  display: block;
+}
+
+.btn-signup {
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: red;
+  padding: 16px 52px;
+  margin-top: 40px;
+}
+
