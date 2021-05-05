@@ -528,11 +528,11 @@ input::placeholder {
 }
 
 .footer-list li ul {
-   list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 12px;
-  line-height: 19px;
+  line-height: 22px;
 }
 
 .footer-list li a {
@@ -554,6 +554,8 @@ input::placeholder {
   line-height: 14px;
   font-size: 12px;
 }
+
+/* END OF FOOTER */
 
 
 
